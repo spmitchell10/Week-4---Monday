@@ -1,0 +1,47 @@
+.container{
+	padding-top: 10px;
+	box-sizing: border-box;
+	#weather{
+	display: inline-block;
+	margin: 0px auto;
+	width: 100%;
+	height: 200px;
+	.rain{
+		display: inline-block;
+		background: #337AB7;
+		height: 250px;
+		margin: 0px auto;
+		padding-top: 50px;
+		border-radius: 10%;
+		border: black solid;
+		.snowstorm{
+			display: block;
+			margin: 0px auto;
+			text-align: center;
+			}
+		.sleet{
+			display: block;
+			margin: 0px auto;
+			text-align: center;
+			}
+		.condition{
+			display: block;
+			margin: 0px auto;
+			text-align: center;
+			}
+		.image{
+			display: block;
+			margin: 0px auto;
+			text-align: center;
+		}
+	}
+}
+}
+.enterlocation{
+	text-align: center;
+	padding-top: 10%;
+}
+.submit{
+	height: 25px;
+	width: 40px;
+}
